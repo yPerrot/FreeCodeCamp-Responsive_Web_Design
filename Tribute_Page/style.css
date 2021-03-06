@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 550px;
+    text-align: left;
+    margin: 50px auto;
+}
+
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    text-align: left;
+}
+
+li {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+figure {
+    background-color: white;
+}
+
+figcaption {
+    padding: 16px 0;
+}
+
+/* HERE */
+img {
+    height: auto;
+    max-width: 100%;
+}

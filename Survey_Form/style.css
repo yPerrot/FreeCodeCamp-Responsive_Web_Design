@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;   
+    /* font-size: 1rem;  */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+    
+    background-image: 
+        linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), 
+        url(images/bg.jpeg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header {
+    text-align: center;
+}
+    
+#description {
+    font-weight: 200;
+    font-style: italic;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 5px;
+    max-width: 750px;
+    min-width: 200px;
+
+    display: grid;
+}
+
+button {
+    width: 100%;
+    padding: 1em 0;
+    margin-top: 1em;
+    border-radius: 2px;
+    color: white;
+    background-color: #37af65 ;
+    border: 0;
+    font-size: 1em;
+
+    cursor: pointer;
+}
+
+label[for=name], 
+label[for=email], 
+label[for=age], 
+label[for=role], 
+label[for=feature], 
+label[for=comments]  {
+    padding-bottom: 1em;
+}
+
+#name, #email, #age, #role, #feature {
+    width: 100%;
+    border-radius: 2px;
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    /* color: darkgrey; */
+    /* font-weight: 200; */
+    margin-top: 0.5em;
+} 
+
+textarea {
+    width: 100%;
+    height: 10em;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 2px;
+    margin-top: 0.5em;
+}
+
+.list-item {
+    display: grid;
+    padding-bottom: 1em;
+
+}
+
+.list-item legend {
+    margin-bottom: 0.5em;
+}
